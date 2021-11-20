@@ -1,0 +1,26 @@
+{
+    "nameItem": "Arco do Henn",
+    "BCDTO": {
+        "instanceID": 0
+    },
+    "thisType": 0,
+    "bowType": 2,
+    "handling": 100,
+    "SlotModification": 3,
+    "limitAmmo": 50,
+    "typeArrow": [
+        {
+            "nameItem": "Flecha de Vibranium",
+            "ACDTO": {
+                "instanceID": 0
+            },
+            "ammoType": 2,
+            "damage": 200,
+            "elementalSeverity": 0,
+            "elementalType": 0,
+            "cost": 500,
+            "tear": 200,
+            "ammoQnt": 20
+        }
+    ]
+}

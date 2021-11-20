@@ -1,0 +1,6 @@
+Se quiser utilizar um dos ScriptableObjects:
+
+Dentro da pasta "Bows" terá alguns ScriptableObjects.
+Em GameControl, no script "GameController" tem a variável "BCDTO".
+Em "BCDTO" Selecione um dos objetos que está em "Bows" e dê Play.
+O jogo pegará as informações e colocará sozinho na variável.

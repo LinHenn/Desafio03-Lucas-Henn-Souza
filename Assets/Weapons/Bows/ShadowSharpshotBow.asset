@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e1c117a674e41f49a140324227be66e, type: 3}
+  m_Name: ShadowSharpshotBow
+  m_EditorClassIdentifier: 
+  nameItem: Shadow Sharpshop Bow
+  thisType: 0
+  bowType: 2
+  handling: 20
+  SlotModification: 3
+  limitAmmo: 10
+  typeArrow:
+  - nameItem: Precision Arrow
+    ACDTO: {fileID: 11400000, guid: 72c9e5adba33df94597eaf0481601f8a, type: 2}
+    ammoType: 2
+    damage: 60
+    elementalSeverity: 0
+    elementalType: 0
+    cost: 100
+    tear: 30
+    ammoQnt: 5
+  - nameItem: Tearblast Arrow
+    ACDTO: {fileID: 11400000, guid: 1f0afc1d8f70c8c4ab48b795c3026b9e, type: 2}
+    ammoType: 2
+    damage: 0
+    elementalSeverity: 0
+    elementalType: 0
+    cost: 100
+    tear: 100
+    ammoQnt: 10
+  - nameItem: Harvest Arrow
+    ACDTO: {fileID: 11400000, guid: f84d3dfa788bcba4394dbadea21bb005, type: 2}
+    ammoType: 2
+    damage: 10
+    elementalSeverity: 0
+    elementalType: 0
+    cost: 100
+    tear: 50
+    ammoQnt: 10

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e1c117a674e41f49a140324227be66e, type: 3}
+  m_Name: CarjaWarBow
+  m_EditorClassIdentifier: 
+  nameItem: Carja War Bow
+  thisType: 0
+  bowType: 1
+  handling: 50
+  SlotModification: 2
+  limitAmmo: 15
+  typeArrow:
+  - nameItem: Shock Arrow
+    ACDTO: {fileID: 11400000, guid: 799162b5ac9e56649b3b23f1eac903d8, type: 2}
+    ammoType: 1
+    damage: 5
+    elementalSeverity: 25
+    elementalType: 3
+    cost: 50
+    tear: 0
+    ammoQnt: 10
+  - nameItem: Freeze Arrow
+    ACDTO: {fileID: 11400000, guid: 1f841201907fe5d408ade03dbb3ed66b, type: 2}
+    ammoType: 1
+    damage: 5
+    elementalSeverity: 25
+    elementalType: 2
+    cost: 50
+    tear: 0
+    ammoQnt: 10
